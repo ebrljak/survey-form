@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="bs-ba">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="box">
+        <h2>Survey form</h2>
+        <form id="form" class="form">
+
+            <div class="form-control">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter name" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i><br>
+                <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="name">E-mail</label>
+                <input type="email" id="email" placeholder="Enter e-mail" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i><br>
+                <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="name">Age</label>
+                <input type="number" id="number" placeholder="Enter your age" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i><br>
+                <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="name" id="radio1">Have you ever heard for @notes_for_developers?</label><br>
+                <input type="radio" name="choice">Yes
+                <input type="radio" name="choice">No
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i><br>
+                <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="name" id="radio2">Would you recommend @notes_for_developers to a friend?</label><br>
+                <input type="radio" name="choice1">Yes
+                <input type="radio" name="choice1">No
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i><br>
+                <small>Error message</small>
+            </div>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
