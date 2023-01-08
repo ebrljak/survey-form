@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    background-color: #1A1D33;
+}
+
+h2 {
+    text-align: center;
+    color: #1A1D33;
+    font-size: 50px;
+    overflow: hidden;
+    font-family: 'Italianno', cursive;
+    margin: auto;
+    padding: 10px;
+}
+
+.box {
+    padding: 0;
+    width: 430px;
+    height: 600px;
+    background-color: #D9D9D9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    top: 5%;
+    left: 25%;
+    position: absolute;
+
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+    padding-top: 0px;
+}
+
+.form-control {
+    position: relative;
+}
+
+.form-control label {
+    width: 40px;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-style: bold;
+    font-size: 16px;
+    line-height: 17px;
+    line-height: 100%;
+    text-align: left;
+    margin-top: 30%;
+    vertical-align: top;
+    color: #3C2D2D;
+    margin-left: 20%;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+#radio1 {
+    margin-left: 19px;
+}
+
+#radio2 {
+    margin-left: 15px;
+}
+
+.form-control input[type=text],
+input[type=email], input[type=number]{
+    width: 213px;
+    height: 30px;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 15px;
+    text-align: left;
+    vertical-align: top;
+    color: #3C2D2D;
+    font-weight: 400;
+    background-color: #EADEDE;
+    padding-left: 10px;
+    left: 20px;
+    top: 20px;       
+}
+
+.form-control input[type=text] {
+    margin-top: 20px;
+    margin-left: -47.5px;
+    margin-bottom: 25px;
+}
+
+.form-control input[type=email] {
+    margin-top: 20px;
+    margin-left: -54px;
+    margin-bottom: 25px;
+}
+
+.form-control input[type=number] {
+    margin-top: 20px;
+    margin-left: -35px;
+    margin-bottom: 25px;
+}
+
+.form-control input[type=radio] {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 90px;
+}
+
+.box input[type=submit] {
+    width: 104px;
+    height: 34px;
+    color: #FFFFFF;
+    background-color: #1A1D33;
+    text-align: center;
+    vertical-align: top;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 15px;
+    line-height: 100%;
+    margin-left: 35%;
+    margin-top: 25px;
+    font-weight: medium;
+    border: 1.5px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}
+
+.form-control.success input {
+    border-color: #509E43;
+}
+
+.form-control.error input {
+    border-color: #e74c3c;
+}
+
+.form-control i {
+    visibility: hidden;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+.form-control.success i.fa-check-circle {
+    color: #2ecc71;
+    visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+    color: #e74c3c;
+    visibility: visible;
+}
+
+.form-control small {
+    color: #e74c3c;
+    position: absolute;
+    bottom: 0;
+    margin-left: 160px;
+    visibility: hidden;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.form-control.error small {
+    visibility: visible;
+
+}
